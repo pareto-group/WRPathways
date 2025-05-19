@@ -358,9 +358,9 @@ class MiniSom(object):
     def _gaussian(self, c, sigma):
         """Returns a Gaussian centered in c."""
         d = 2*sigma*sigma
-        ax = exp(-power(self._xx-self._xx.T[c], 2)/d)
-        ay = exp(-power(self._yy-self._yy.T[c], 2)/d)
-        return (ax * ay).T  # the external product gives a matrix
+        ax = exp(-power(self._xx-self._xx[c], 2)/d)
+        ay = exp(-power(self._yy-self._yy[c], 2)/d)
+        return (ax * ay)  # the external product gives a matrix
 
     def _mexican_hat(self, c, sigma):
         """Mexican hat centered in c."""
