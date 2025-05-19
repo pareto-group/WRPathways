@@ -1,4 +1,0 @@
-data/
-animation/
-tuning_output/
-*.png
