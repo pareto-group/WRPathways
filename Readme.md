@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/846652540.svg)](https://doi.org/10.5281/zenodo.18358499)
+
 # Weather Regime Diversity, Transitions, and Trends using Hexagonal Self-Organizing Maps
 
 This repository documents the dataset associated with the preprint:
